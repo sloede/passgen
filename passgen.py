@@ -28,7 +28,7 @@ def main():
 
     # Generate password
     pw = ''
-    for i in range(1, args.length):
+    for i in range(0, args.length):
         pw += random.choice(args.population)
 
     # Print password
